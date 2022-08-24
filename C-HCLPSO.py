@@ -3,14 +3,14 @@
 #   Emails:  thuxd11@gmail.com, Sawekchai.T@chula.ac.th
 #            Applied Mechanics and Structures Research Unit, Department of Civil Engineering, 
 #            Chulalongkorn University 
-#   https://scholar.google.com/citations?user=NysMfoAAAAAJ&hl=vi """
+#   https://scholar.google.com/citations?user=NysMfoAAAAAJ&hl=vi 
 # Research paper: Chaotic Heterogeneous Comprehensive Learning Particle Swarm Optimization 
 # for Simultaneous Sizing and Shape Design of Structures (2022) "Applied Soft Computing Journal"
 """ 
 # Reference: Thu Huynh Van, Sawekchai Tangaramvong (2022). Two-Phase ESO-CLPSO Method for the Optimal Design 
-of Structures with Discrete Steel Sections. "Advances in Engineering Software". https://doi.org/10.1016/j.advengsoft.2022.103102
-CLPSO code: https://github.com/thuchula6792/CLPSO
-""" 
+# of Structures with Discrete Steel Sections. "Advances in Engineering Software". https://doi.org/10.1016/j.advengsoft.2022.103102
+# CLPSO code: https://github.com/thuchula6792/CLPSO
+
 
 import random
 import math
