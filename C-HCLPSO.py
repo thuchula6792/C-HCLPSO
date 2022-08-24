@@ -11,7 +11,6 @@
 # of Structures with Discrete Steel Sections. "Advances in Engineering Software". https://doi.org/10.1016/j.advengsoft.2022.103102
 # CLPSO code: https://github.com/thuchula6792/CLPSO
 
-
 import random
 import math
 import numpy as np
