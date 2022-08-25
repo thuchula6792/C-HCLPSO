@@ -269,7 +269,7 @@ def remove_node(connec, n1):
             bars.remove
     return np.array(bars)
 
-# ASSEMBLED GLOBAL STIFFNESS MATRIX AND PERFORM OPTIMIZATION USING CHAOS-CLPSO
+# ASSEMBLED GLOBAL STIFFNESS MATRIX AND PERFORM OPTIMIZATION USING CHAOS-HCLPSO
 def opttruss(coord, connec, E, F, freenode, No_groups, Fy, C_c, Mater_Dens, plotdisp=False):
     n = connec.shape[0]  
     m = coord.shape[0]
