@@ -694,7 +694,7 @@ def opttruss(coord, connec, E, F, freenode, No_groups, Fy, C_c, Mater_Dens, plot
     num_particles = 20  
     Stress_Limit = 1.0
     Disp_Limit = 0.1969
-    num_CLS = 5
+    num_CLS = 1000
     No_run = 0
     scale_bounds = 0.3
     t = CHCLPSO(fobj, No_variable, bounds, num_particles, Stress_Limit, Disp_Limit)
