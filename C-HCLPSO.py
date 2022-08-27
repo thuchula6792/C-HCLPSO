@@ -803,7 +803,7 @@ def drawtruss_3D(coord, connec):
          mlab.figure(size=(1000, 600), bgcolor = (1,1,1))  
          for i in range(n):
                  bar1 = np.concatenate((coord[connec[i,0],:][np.newaxis], coord[connec[i,1],:][np.newaxis]), axis=0)
-                 mlab.plot3d(bar1[:,1], bar1[:,2], bar1[:,0], tube_radius=7, color=(0.8, 0.1, 0.5))   # color=(0.8, 0.1, 0.5) (0.4, 0.2, 0.8) (0.4, 0.3, 0.9) (0.5, 0.3, 0.9)
+                 mlab.plot3d(bar1[:,1], bar1[:,2], bar1[:,0], tube_radius=7, color=(0.8, 0.1, 0.5)) 
          
          mlab.points3d(coord[:, 1], coord[:, 2], coord[:, 0],  mode='sphere', color = (0, 0.4, 0.9) , scale_factor=30)
          mlab.orientation_axes()
